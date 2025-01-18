@@ -2,9 +2,11 @@ function Car()
 {
     this.y = 420;
     this.x = 200;
+    this.width = 20;
+    this.height = 30;
     this.show = function(){
         fill(0,0,230);
-        rect(this.x,this.y,20,30);
+        rect(this.x,this.y,this.width,this.height);
     }
     
     this.right = function(){
